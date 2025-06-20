@@ -1,0 +1,126 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fff !important;
+}
+
+.checkout-container {
+    display: flex;
+    gap: 20px;
+    max-width: 800px;
+}
+
+.customer-info,
+.cart-summary {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 800px;
+}
+.login_check{
+    text-decoration: none;
+    color: #338dbc;
+    transition: color 0.2s ease-in-out;
+    display: inline-block;
+    margin-left: 5px ;
+}
+.login_check:hover{
+    color: #0056b3;
+
+}
+
+.customer-info input,
+.customer-info select {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.customer-info input:focus,
+.customer-info select:focus {
+    outline: none;
+    border-color: #007bff; /* Màu đường viền khi focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.cart-summary {
+    max-width: 400px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.cart-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.total {
+    margin-top: 20px;
+}
+
+.total p {
+    margin: 5px 0;
+}
+
+#placeOrderBtn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#placeOrderBtn:hover {
+    background-color: #0056b3;
+}
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: -5px;
+    margin-bottom: 5px;
+    display: block;
+    line-height: 1.2;
+}
+.carts .carts-item {
+    display: inline-block;
+    font-size: 0.85714em;
+
+    }
+.li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+
+.ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.carts-item a {
+    text-decoration: none;
+    color: #338dbc;
+    transition: color 0.2s ease-in-out;
+}
+
+.carts-item a:hover {
+    color: #0056b3; /* Màu chữ khi hover */
+}
